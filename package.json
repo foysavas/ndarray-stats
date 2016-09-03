@@ -1,0 +1,41 @@
+{
+  "name": "ndarray-stats",
+  "version": "1.0.0",
+  "description": "Summary statistics for ndarrays",
+  "main": "index.js",
+  "scripts": {
+    "lint": "semistandard",
+    "test": "npm run lint && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foysavas/ndarray-stats.git"
+  },
+  "keywords": [
+    "ndarray",
+    "statistics",
+    "describe"
+  ],
+  "author": "Foy Savas <foy@sav.as> (http://foysavas.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foysavas/ndarray-stats/issues"
+  },
+  "homepage": "https://github.com/foysavas/ndarray-stats#readme",
+  "semistandard": {
+    "globals": [
+      "describe",
+      "it",
+      "beforeEach"
+    ]
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "ndarray": "^1.0.18",
+    "semistandard": "^8.0.0"
+  },
+  "dependencies": {
+    "cwise": "^1.0.9"
+  }
+}
