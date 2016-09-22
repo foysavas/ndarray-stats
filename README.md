@@ -18,13 +18,13 @@ var r = ndarrayStats(A);
 // r is now an object with summary stats
 //
 // r = {
-//   count: 6
-//   max: 6
-//   mean: 3.5
-//   min: 1
-//   std: 1.8708286933869707
-//   sum: 21
-//   sum_of_squares: 91
+//   count: 6,
+//   max: 6,
+//   mean: 3.5,
+//   min: 1,
+//   std: 1.8708286933869707,
+//   sum: 21,
+//   sum_of_squares: 91,
 //   variance: 3.5
 // }
 ```
@@ -41,13 +41,13 @@ var r = ndarrayStats(A);
 // r is now an array of objects with summary stats, one for each column
 //
 // r[0] = {
-//   count: 3
-//   max: 7
-//   mean: 4
-//   min: 1
-//   std: 3
-//   sum: 12
-//   sum_of_squares: 66
+//   count: 3,
+//   max: 7,
+//   mean: 4,
+//   min: 1,
+//   std: 3,
+//   sum: 12,
+//   sum_of_squares: 66,
 //   variance: 9
 // }
 
